@@ -1,0 +1,49 @@
+body{
+    background-color: lightgrey;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: 40px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1,h2,p {
+    margin-left: 200px;
+}
+#newEntry{
+    margin-left: 100px;
+    width: 1000px;
+}
+#visualization {
+    margin-left: 100px;
+    height: 500px;
+    width: 1000px;
+    text-align: right;
+}
+#visualTable{
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+}
+#visualFullTable{
+    margin-left: 100px;
+    height: 500px;
+    width: 1000px;
+    display: inline-block;
+}
+#allTablesDiv{
+    display: flex;
+    height: 550px;
+}
